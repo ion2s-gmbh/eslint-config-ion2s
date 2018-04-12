@@ -1,0 +1,18 @@
+{
+  "name": "vf-lint",
+  "version": "0.0.0",
+  "description": "Module providing basic rules and plugins to lint vf portals maintained by ion2s.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@webgit.kabeldeutschland.de:7999/~thomas.stern/vf-lint.git"
+  },
+  "author": "ion2s GmbH",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "eslint": "^4.19.1"
+  }
+}
