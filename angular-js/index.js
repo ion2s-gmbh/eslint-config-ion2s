@@ -1,6 +1,6 @@
 module.exports = {
     extends: [
-        'vf-lint',
+        '../_base/index.js',
         'plugin:angular/johnpapa',
     ],
 };

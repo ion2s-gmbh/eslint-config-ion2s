@@ -2,9 +2,13 @@
   "name": "eslint-config-ion2s",
   "version": "0.0.0",
   "description": "Module providing basic rules and plugins to lint vf portals maintained by ion2s.",
-  "main": "index.js",
+  "main": "_base/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run lint && npm run lint-angular-js",
+    "lint": "eslint _base/index.spec.js",
+    "lint-angular-js": "eslint angular-js/index.spec.js --config=angular-js/index.js",
+    "preversion": "npm run test",
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
@@ -15,6 +19,7 @@
   "dependencies": {
     "eslint": "^4.19.1",
     "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-angular": "^3.3.0",
     "eslint-plugin-import": "^2.11.0",
     "eslint-plugin-node": "^6.0.1",
     "eslint-plugin-promise": "^3.7.0",
