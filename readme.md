@@ -7,7 +7,7 @@ eslint-config-ion2s
 ## Installation
 
 ```
-$ npm install --save-dev eslint eslint-config-ion2s
+$ npm i --save-dev eslint git+ssh://git@webgit.kabeldeutschland.de:7999/ion2s/eslint-config-ion2s.git
 ```
 
 
