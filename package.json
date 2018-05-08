@@ -12,10 +12,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@webgit.kabeldeutschland.de:7999/ion2s/eslint-config-ion2s.git"
+    "url": "ssh://git@github.com:poolingpeople/eslint-config-ion2s.git"
   },
   "author": "ion2s GmbH",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "dependencies": {
     "eslint": "^4.19.1",
     "eslint-config-standard": "^11.0.0",
