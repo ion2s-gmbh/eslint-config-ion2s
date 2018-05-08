@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-ion2s",
   "version": "1.0.3",
-  "description": "Module providing basic rules and plugins to lint vf portals maintained by ion2s.",
+  "description": "ESLint shareable config for portals maintained by ion2s.",
   "main": "_base/index.js",
   "scripts": {
     "test": "npm run lint && npm run lint-angular-js",

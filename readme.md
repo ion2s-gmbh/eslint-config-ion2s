@@ -1,7 +1,7 @@
 eslint-config-ion2s
 ===================
 
-> ESLint shareable config for vodafone portals maintained by ion2s.
+> ESLint shareable config for portals maintained by ion2s.
 
 
 ## Installation
