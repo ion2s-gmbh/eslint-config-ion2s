@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com:poolingpeople/eslint-config-ion2s.git"
+    "url": "https://github.com/poolingpeople/eslint-config-ion2s.git"
   },
   "author": "ion2s GmbH",
   "license": "MIT",
