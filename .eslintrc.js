@@ -8,6 +8,7 @@ module.exports = {
         'comma-dangle': ['error', 'always-multiline'],
         'indent': ['error', 4, { "SwitchCase": 1 }],
         'no-multi-spaces': ['error', { ignoreEOLComments: true }],
+        'no-prototype-builtins': 0,
         'semi': ['error', 'always'],
     },
 };
