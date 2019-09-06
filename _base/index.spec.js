@@ -25,3 +25,22 @@ test.method = function () {
 
     return name;
 };
+
+test.print = function (str) {
+    switch (str) {
+        case 'shit':
+            console.log('$#*!');
+            break;
+        case 1:
+            console.log('one');
+            break;
+        case 2:
+            console.log('two');
+            break;
+        case 5:
+            console.log('high-five');
+            break;
+        default:
+            console.log(str);
+    }
+};
