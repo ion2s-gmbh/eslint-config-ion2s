@@ -2,7 +2,7 @@
 // https://standardjs.com/rules.html
 module.exports = {
     extends: [
-        'standard',
+        './_base/standard-js-rules.js',
     ],
     rules: {
         'comma-dangle': ['error', 'always-multiline'],
