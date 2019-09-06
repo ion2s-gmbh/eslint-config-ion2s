@@ -32,13 +32,3 @@ module.exports = {
 };
 
 ```
-
-
-### AngularJS
-
-Specifying `ion2s/angular-js` in the `extends` section of your configuration.
-```js
-module.exports = {
-    extends: 'ion2s/angular-js',
-};
-```
