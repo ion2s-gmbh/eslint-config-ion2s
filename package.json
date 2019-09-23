@@ -2,10 +2,10 @@
   "name": "eslint-config-ion2s",
   "version": "3.0.1",
   "description": "ESLint shareable config for portals maintained by ion2s.",
-  "main": "_base/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "npm run lint && npm run lint-angular-js",
-    "lint": "eslint _base/index.spec.js",
+    "lint": "eslint lib/index.spec.js",
     "lint-angular-js": "eslint angular-js/index.spec.js --config=angular-js/index.js",
     "preversion": "npm run test",
     "postversion": "git push && git push --tags"
@@ -28,7 +28,8 @@
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-node": "^9.1.0",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.0"
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^5.2.3"
   },
   "devDependencies": {
     "eslint": "^6.1.0"
