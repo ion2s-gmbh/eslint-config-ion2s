@@ -25,6 +25,8 @@
   "author": "ion2s GmbH",
   "license": "MIT",
   "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.3.0",
+    "@typescript-eslint/parser": "^2.3.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-node": "^9.1.0",
     "eslint-plugin-promise": "^4.2.1",
@@ -32,9 +34,11 @@
     "eslint-plugin-vue": "^5.2.3"
   },
   "devDependencies": {
-    "eslint": "^6.1.0"
+    "eslint": "^6.1.0",
+    "typescript": "^3.6.3"
   },
   "peerDependencies": {
-    "eslint": "^6.1.0"
+    "eslint": "^6.1.0",
+    "typescript": "^3.6.3"
   }
 }
