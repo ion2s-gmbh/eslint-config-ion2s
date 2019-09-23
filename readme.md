@@ -22,6 +22,20 @@ module.exports = {
 };
 ```
 
+You can also use ESLint configurations for TypeScript and Vue:
+```js
+module.exports = {
+    extends: 'ion2s/typescript',
+};
+```
+
+```js
+module.exports = {
+    extends: 'ion2s/vue',
+};
+```
+
+
 Feel free to add project specific configuration, like `env` or `parserOptions` - Example:
 ```js
 module.exports = {
