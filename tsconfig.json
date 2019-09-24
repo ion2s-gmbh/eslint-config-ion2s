@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "lib": [
+        "dom",
+        "es7"
+    ],
+    "declaration": true, // automatic generation of TypeScript declaration files
+    "declarationDir": "./dist", //where does compiled code go
+    "module": "es6",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "noImplicitAny": true, // any hase to be specified explicitly
+    "outDir": "./dist", //where does compiled code go
+    "target": "es5" // Compile TS to specified JS version 
+  },
+  "typedocOptions": {
+    "mode": "file",
+    "out": "./docs",
+    "moduleResolution": "node",
+    "module": "commonjs"
+  },
+  "include": [
+    "typescript/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

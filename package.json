@@ -2,11 +2,12 @@
   "name": "eslint-config-ion2s",
   "version": "3.0.1",
   "description": "ESLint shareable config for portals maintained by ion2s.",
-  "main": "_base/index.js",
+  "main": "javascript/index.js",
   "scripts": {
-    "test": "npm run lint && npm run lint-angular-js",
-    "lint": "eslint _base/index.spec.js",
-    "lint-angular-js": "eslint angular-js/index.spec.js --config=angular-js/index.js",
+    "test": "npm run lint && npm run lint-ts && npm run lint-vue",
+    "lint": "eslint javascript/index.spec.js",
+    "lint-ts": "eslint typescript/",
+    "lint-vue": "eslint vue/",
     "preversion": "npm run test",
     "postversion": "git push && git push --tags"
   },
@@ -25,13 +26,20 @@
   "author": "ion2s GmbH",
   "license": "MIT",
   "dependencies": {
-    "eslint": "^6.1.0",
-    "eslint-config-standard": "^13.0.1",
-    "eslint-plugin-angular": "^4.0.1",
+    "@typescript-eslint/eslint-plugin": "^2.3.0",
+    "@typescript-eslint/parser": "^2.3.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-node": "^9.1.0",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.0"
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^5.2.3"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "typescript": "^3.6.3"
+  },
+  "peerDependencies": {
+    "eslint": "^6.1.0",
+    "typescript": "^3.6.3"
+  }
 }
