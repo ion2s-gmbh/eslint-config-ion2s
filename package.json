@@ -4,9 +4,10 @@
   "description": "ESLint shareable config for portals maintained by ion2s.",
   "main": "javascript/index.js",
   "scripts": {
-    "test": "npm run lint && npm run lint-angular-js",
+    "test": "npm run lint && npm run lint-ts && npm run lint-vue",
     "lint": "eslint javascript/index.spec.js",
-    "lint-angular-js": "eslint angular-js/index.spec.js --config=angular-js/index.js",
+    "lint-ts": "eslint typescript/",
+    "lint-vue": "eslint vue/",
     "preversion": "npm run test",
     "postversion": "git push && git push --tags"
   },
