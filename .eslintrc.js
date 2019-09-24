@@ -2,6 +2,6 @@
 // https://standardjs.com/rules.html
 module.exports = {
     extends: [
-        './lib/index.js',
+        './javascript/index.js',
     ],
 };
