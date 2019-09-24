@@ -20,7 +20,7 @@
     "module": "commonjs"
   },
   "include": [
-    "lib/typescript/**/*"
+    "typescript/**/*"
   ],
   "exclude": [
     "node_modules"

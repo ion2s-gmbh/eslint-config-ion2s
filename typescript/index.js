@@ -2,7 +2,7 @@ const disabledRules = require('./disabledTypescriptRules'); // eslint-disable-li
 
 module.exports = {
     extends: [
-        '../index.js',
+        '../lib/index.js',
         'plugin:@typescript-eslint/recommended',
     ],
     parser: '@typescript-eslint/parser',
