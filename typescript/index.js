@@ -5,7 +5,9 @@ module.exports = {
         '../javascript/index.js',
         'plugin:@typescript-eslint/recommended',
     ],
-    parser: '@typescript-eslint/parser',
+    parserOptions: {
+        parser: '@typescript-eslint/parser',
+    },
     plugins: [
         '@typescript-eslint',
     ],
