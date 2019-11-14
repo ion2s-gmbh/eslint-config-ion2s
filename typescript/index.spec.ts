@@ -36,3 +36,6 @@ class Animal {
 
 const dog = new Animal('Sam', 'Labrador');
 doThings(dog.getName());
+
+const optionalChainingObj = { foo: { bar: 'baz' } };
+console.log(optionalChainingObj.foo?.bar);
