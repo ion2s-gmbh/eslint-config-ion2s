@@ -35,6 +35,13 @@ module.exports = {
 };
 ```
 
+There is also a config for using TypeScript with Vue:
+
+```js
+module.exports = {
+    extends: 'ion2s/vue-ts',
+};
+```
 
 Feel free to add project specific configuration, like `env` or `parserOptions` - Example:
 ```js
