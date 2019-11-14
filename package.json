@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ion2s",
-  "version": "4.0.2",
+  "version": "4.1.0",
   "description": "ESLint shareable config for portals maintained by ion2s.",
   "main": "javascript/index.js",
   "scripts": {
