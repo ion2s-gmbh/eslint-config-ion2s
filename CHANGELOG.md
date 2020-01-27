@@ -1,3 +1,7 @@
+# v4.1.1
+- Allow usage of function before declaration
+
+
 # v4.1.0
 - Update TypeScript support
 
