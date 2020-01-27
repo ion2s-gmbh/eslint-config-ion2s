@@ -24,6 +24,7 @@ module.exports = {
         }],
         '@typescript-eslint/explicit-member-accessibility': ['error'],
         '@typescript-eslint/member-ordering': ['error'],
+        '@typescript-eslint/no-use-before-define': ['error', 'nofunc'],
     },
     overrides: [
         {
