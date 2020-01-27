@@ -1,3 +1,7 @@
+# v4.1.0
+- Update TypeScript support
+
+
 # v4.0.0
 
 - Add typescript and vue support
