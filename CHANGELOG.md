@@ -1,3 +1,7 @@
+# v4.2.0
+- Update dependency
+
+
 # v4.1.1
 - Allow usage of function before declaration
 
