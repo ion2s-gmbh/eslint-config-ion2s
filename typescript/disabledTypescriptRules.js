@@ -1,4 +1,4 @@
-const recommendedConfig = require('@typescript-eslint/eslint-plugin/dist/configs/recommended.json'); // eslint-disable-line
+const recommendedConfig = require('@typescript-eslint/eslint-plugin/dist/configs/recommended.js');
 
 // Workaround to set all TS rules to 'off'
 
