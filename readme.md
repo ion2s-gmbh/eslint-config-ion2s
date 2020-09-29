@@ -7,7 +7,7 @@ eslint-config-ion2s
 ## Installation
 
 ```
-$ npm i --save-dev eslint-config-ion2s
+$ npm i --D eslint eslint-config-ion2s
 ```
 
 
