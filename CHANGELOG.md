@@ -1,3 +1,7 @@
+# v4.3.0
+- Update dependency
+
+
 # v4.2.0
 - Update dependency
 
