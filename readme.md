@@ -48,7 +48,7 @@ Feel free to add project specific configuration, like `env` or `parserOptions` -
 module.exports = {
     extends: 'ion2s',
     parserOptions: {
-        ecmaVersion: 6,
+        ecmaVersion: 8,
     },
 };
 
